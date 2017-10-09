@@ -1,0 +1,60 @@
+body,html{margin:0;padding:0;background:#fff;font-size:10px;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
+form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+img{border:0;}
+ul,li{list-style-type:none;}
+a{color:#00007F;text-decoration:none;}
+a:hover{text-decoration:none;}
+#box{
+	/*position: relative;*/
+}
+#top{
+	position: relative;
+	width: 100%;
+}
+video{
+	height:90rem;
+}
+#home{
+	width:100%;
+	height:90rem;
+	background:rgba(40,90,90,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#homeCon{
+	text-align: center;
+	color: white;
+	padding: 30rem 20%;
+}
+#wel{
+	font-size: 5rem;
+	font-weight: bold;
+}
+#content{
+	font-size: 2.5rem;
+	margin: 5rem 0;
+}
+#btn{
+	font-size: 2rem;
+	padding: 1rem 3rem;
+	background: rgb(61,178,160);
+
+}
+.a{
+	text-align: center;
+	padding: 4rem 20%;
+}
+.b{
+	background: #333;
+	color: white;
+}
+.aHead{
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+.aCon{
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+}
