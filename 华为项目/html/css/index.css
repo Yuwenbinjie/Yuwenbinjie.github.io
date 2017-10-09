@@ -1,0 +1,578 @@
+body,html{margin:0;padding:0;background:#fff;font-size:14px;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
+form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+img{border:0;}
+ul,li{list-style-type:none;}
+a{color:#999;text-decoration:none;}
+a:hover{text-decoration:none;}
+#boxOut{
+	/*height: 5000px;*/
+	background: rgb(245,245,245);
+	/*border: 1px solid red;*/
+}
+.cool{
+	width: 1200px;
+	margin: 0 auto;
+	/*border: 1px solid green;*/
+	overflow: hidden;
+}
+#head_top{
+	color: #999;
+	font-weight: 300;
+	height: 30px;
+}
+#head_top a:hover{
+	color:#CE0000;
+}
+#head_top_left{
+	float: left;
+	position: relative;
+}
+#head_top_right{
+	float: right;
+}
+#shopLogo{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	/*border: 1px solid;*/
+    background: url(../img/hot.png) no-repeat 0 0 ;
+}
+#head_more:hover #head_more_text{
+    display: block;
+}
+#head_more_text{
+	width: 140px;
+	padding: 10px;
+	color: black;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #ccc;
+	position: absolute;
+	right: 0px;
+	top: 20px;
+	display: none;
+	z-index: 10;
+	background: white;
+}
+#head_more_text div:hover{
+	color:#CE0000;
+}
+#ma{
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+}
+
+#head_bottom{
+	/*background: pink;*/
+	overflow: hidden;
+	height: 70px;
+}
+#logo{
+	float: left;
+}
+#zhuanqu{
+	float:left;
+}
+.zhuanqu_text{
+	float: left;
+	color: #111;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 10px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.zhuanqu_text:hover{
+	color: #CE0000;
+	border-bottom: 2px solid #CE0000;
+}
+#search{
+	float: right;
+	/*border: 1px solid;*/
+	margin-top: 15px;
+	position: relative;
+}
+#searchInp{
+	width: 250px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #999;
+	font-size: 12px;
+}
+#searchLogo{
+	width: 20px;
+	height: 25px;
+	/*border: 1px solid;*/
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background: url(../img/hot.png) no-repeat -2px -25px;
+}
+#searchLogo:hover{
+	cursor: pointer;
+}
+#scrollPic{
+	position: relative;
+}
+#swiper,.s1{
+    height: 450px;
+}
+#swiper{
+	width: 1920px;
+	position:absolute;
+	top: 0px;
+	left: -360px;
+}
+.swiper-pagination-bullet{
+	width: 15px;
+	height: 15px;
+	background:;
+	border: 1px solid white;
+}
+.swiper-pagination-bullet-active{
+	background:#fff;
+}
+
+#scrollAdv{
+	width: 240px;
+	height: 450px;
+	background: rgba(0,0,0,0.7);
+	color: white;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 30;
+}
+.sStyle{
+	padding: 10px;
+}
+.sStyle:hover{
+	background: rgba(0,0,0,0.9);
+}
+.sStyleH{
+	font-size: 18px;
+}
+.sStyleT{
+	color: grey;	
+}
+.sStyleT1{
+	display: inline-block;
+	width: 150px;
+	height: 25px;
+	line-height: 25px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+
+}
+.sStyleT span{
+	margin-right: 10px;
+}
+.sStyleT span:hover{
+	color: white;
+}
+.sStyle:hover .sStyleT{
+	color: #ccc;
+}
+.sRight{
+	float: right;
+}
+#scrollAdv:hover #scrollInfo{
+	display: block;
+}
+#scrollInfo{
+	background: white;
+	height: 450px;
+	width: 650px;
+	border: 1px solid;
+	position: absolute;
+	top: 0px;
+	left:240px;
+	z-index: 30;
+	color: #333;
+	font-size: 15px;
+	display: none;
+}
+.siHead{
+	padding: 20px 30px;
+	border-bottom: 1px solid #ccc;
+	color: #CE0000;
+}
+.siSort{
+	padding: 30px;
+	color: #222;
+}
+.siSort span{
+	margin-right:20px;
+}
+.siSort span:hover{
+	color: #CE0000;
+}
+.siPic{
+	position: absolute;
+	border-top: 1px solid #ccc;
+	bottom: 0;
+	left: 0;
+}
+.sips{
+	width: 160px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	border-left: 1px solid #ccc;
+}
+.sips img{
+	width: 118px;
+	height: 118px;
+	margin: 20px 0px;
+}
+.sipMoney{
+	color: #CE0000;
+}
+
+#loginBox{
+	border:1px solid #ccc ;
+	/*padding: 20px 0px;*/
+	background: white;
+	overflow: hidden;
+}
+#login{
+	width: 280px;
+	padding:20px;
+	float: left;
+	font-size: 12px;
+}
+#loginLogo{
+	width: 60px;
+	height: 60px;
+
+	float: left;
+}
+#login_text{
+   float: right;
+   width: 170px;
+   color: grey;
+}
+#login_btn a{
+   text-decoration: underline;
+   color: #333;
+}
+#login_btn a:hover{
+   color: #CE0000;
+}
+.loginnew{
+	padding: 2px;
+	border: 1px solid #CE0000;
+	color: #CE0000;
+	margin-right: 20px;
+	line-height: 30px;
+}
+#login2{
+/*	width: 600px;*/
+	float: left;
+	border-left: 1px solid #ccc; 
+	border-right: 1px solid #ccc; 
+}
+.login2_logo{
+	float: left;
+	/*border: 1px solid;*/
+	width: 99px;
+	height: 100px;
+	margin-top: 10px;
+    text-align: center;
+}
+.login2P{
+	width: 41px;
+	height: 40px;
+	margin: 10px auto;
+	background: url(../img/login2.png) no-repeat;
+	/*border: 1px solid;*/
+}
+.p1{
+	background-position:  0px 0px;
+}
+.p2{
+	background-position:  -40px 0px;
+}
+.p3{
+	background-position:  -80px 0px;
+}
+.p4{
+	background-position:  -120px 0px;
+}
+.p5{
+	background-position:  -160px 0px;
+}
+.p6{
+	background-position:  -200px 0px;
+}
+.login2T:hover{
+	color: #CE0000;
+}
+
+#notice{
+	float: left;
+	margin:10px;
+}
+#noticeT{
+	font-weight: bold;
+	color: #CE0000;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+}
+#notice_top{
+	height: 40px;
+	/*border: 1px solid;*/
+	display: inline-block;
+}
+#notice_bottom{
+    border-top: 1px solid #ccc;
+    width: 280px;
+}
+.nbText{
+	margin-right:20px;
+	margin-top:15px;
+	float: left;
+}
+.nblogo{
+	width: 20px;
+	height: 20px;
+    background: url(../img/login2.png) no-repeat;
+    float: left;
+}
+.p7{
+	background-position:  -240px 0px;
+}
+.p8{
+	background-position:  -260px 0px;
+}
+.p9{
+	background-position:  -280px 0px;
+}
+.nbmain{
+	float: left;
+}
+
+#adver{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+#adver img{
+	width: 290px;
+	height: 160px;
+}
+#adver img:hover{
+	box-shadow: 0px 5px 20px #ccc;
+}
+.hotGoods{
+
+}
+.goodsTitle{
+	height: 65px;
+	padding: 30px 0 15px 0;
+	font-weight: bold;
+	line-height: 30px;
+}
+.gtLeft{
+	font-size: 22px;
+	float: left;
+	color: black;
+}
+.gtMain{
+    font-size: 18px;
+	float: left;
+	color: #999;
+	margin-left: 50px;
+
+}
+.gtmain_text{
+	float: left;
+	margin-right: 20px;
+}
+.gtmain_text:hover{
+	color: #CE0000;
+	border-bottom: 2px solid #CE0000;
+}
+.gtMore{
+	float: right;
+	font-size: 20px;
+	color:777;
+}
+
+
+.goodsMain{
+	/*height: 600px;*/
+	/*border: 1px solid;*/
+	overflow: hidden;
+}
+.goodsBig{
+	float: left;
+	height: 590px;
+}
+.goodsSmall{
+	float: left;
+	width: 230px;
+	background: white;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding:30px 0px;
+	line-height: 25px;
+	transition: all 0.5s;
+}
+.goodsSmall:hover{
+	box-shadow: 0px 5px 20px #ccc;
+	transform: translateY(-5px);
+}
+.jpp1{
+	width: 134px;
+	height: 134px;
+	margin-bottom: 20px;
+}
+.php1{
+	width: 160px;
+	height: 160px;
+	margin-bottom: 20px;
+}
+.jpp2{
+	width: 48px;
+	position: absolute;
+	right: 0px;
+	top: -60px;
+	border: none;
+}
+.gsname{
+	color: black;
+	font-size: 16px;
+	position: relative;
+	width: 150px;
+	/*background: red;*/
+	margin:0 auto;
+}
+.gsinfo{
+	color:#999;
+}
+.gsmoney{
+	color:#CE0000;
+}
+#jingpinSwiper{
+	height: 290px;
+}
+.jpgoods{
+	width:220px;
+	/*margin: 0;*/
+}
+#advSwiper{
+	margin-top: 30px;
+	height: 120px;
+}
+#advSwiper img{
+	height: 100%;
+	width: 100%;
+}
+.advSwiperPa{
+	margin-left: 450px;
+}
+
+
+.phonegoods,.phonegoodsH{
+	width: 285px;
+	height: 320px;
+}
+.phonegoodsBig{
+	width: 580px;
+	height: 320px;
+}
+#last_adver{
+	height: 120px;
+	margin: 30px 0;
+}
+#last_adver img{
+	height: 100%;
+	width: 100%;
+}
+
+#foot{
+	background: rgb(240,240,240);
+	margin-top: 30px;
+	/*height: 500px;*/
+}
+#foot_logo img{
+    width: 100%;
+    height:100%;
+}
+.contact{
+	overflow: hidden;
+	padding: 20px 0;
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+}
+.about{
+    float: left;
+    margin-right: 80px;
+    line-height: 30px;
+    color: #666;
+}
+.about_head{
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+}
+.about_main:hover{
+    color: #CE0000;
+}
+.callnum{
+	font-size: 20px;
+	color: #333;
+	font-weight: bold;
+}
+.call24{
+	font-size: 12px;
+	margin: 10px 0;
+}
+.callonline{
+	padding: 10px 20px;
+	background: white;
+	color: #CE0000;
+	border: 1px solid #ccc;
+}
+
+#banquan{
+	background: rgb(230,230,230);
+	padding: 50px 0;
+}
+.banquanlogo{
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+#banquan_text{
+	float: left;
+	color: #999;
+}
+#banquan_text a:hover{
+	color: #CE0000;
+}
+#banquanP{
+	float: right;
+	margin-top: 20px;
+}
+#banquanP img{
+	width: 70px;
+	height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

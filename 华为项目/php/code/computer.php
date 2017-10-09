@@ -1,0 +1,4 @@
+<?php 
+    header('Content-Type:text/html;charset=utf-8');
+    echo '{"bimg":"../php/file/pingh2.jpg","small":[{"img":"../php/file/ping1.jpg","pname":"huawei","info":"最高优惠500","money":"¥2514"},{"img":"../php/file/ping2.jpg","pname":"note9","logo":"../php/file/hot8.png","info":"最高优惠500","money":"¥3521"},{"img":"../php/file/ping8.jpg","pname":"合约机","logo":"../php/file/hot7.png","info":"最高优惠500","money":"¥5442"},{"img":"../php/file/ping4.jpg","pname":"荣耀8","logo":"../php/file/hot5.png","info":"最高优惠500","money":"¥3111"},{"img":"../php/file/ping6.jpg","pname":"huawei","logo":"../php/file/hot6.png","info":"最高优惠500","money":"¥2514"},{"img":"../php/file/ping7.jpg","pname":"note6","info":"最高优惠500","money":"¥3521"}]}';
+?>
