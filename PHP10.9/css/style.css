@@ -10,6 +10,7 @@ a:hover{text-decoration:none;}
 #top{
 	position: relative;
 	width: 100%;
+	overflow: hidden;
 }
 video{
 	height:90rem;
