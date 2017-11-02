@@ -15,6 +15,6 @@
   opacity: 0.8;
   cursor: pointer; }*/
 
-/*@media (min-width: 1199px) {
-  .port-item {
-    padding: 3em !important; } }*/
+@media (max-width: 600px) {
+  .name{
+    font-size:2em; } }
